@@ -35,7 +35,7 @@ range.addEventListener("input", handleRange);
 // code for copy content to clipbord
 async function copyPass() {
   try {
-    await navigator.clipboard.writeText("hello");
+    await navigator.clipboard.writeText(password.value);
     message.innerHTML = "Copied";
 } catch (e) {
     message.innerHTML = "Failed";
