@@ -19,6 +19,7 @@ let symbol = document.querySelector("#symbol");
 let allCheck = document.querySelectorAll('input[type="checkbox"]');
 // range bar
 let range = document.querySelector(".range");
+
 // count of checkbox
 let count = 0;
 // for success or faliur of copy password
