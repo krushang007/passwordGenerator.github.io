@@ -173,7 +173,7 @@ function getStrength()
     {
         return 1;
     }
-    else if(range.value>10 && count>=3 || range.value>=8  && count>=3)
+    else if(range.value>10 && count>=3 || range.value>=8  && count>=3|| range.value>=10 && count>1)
     {
         return 2;
     }
